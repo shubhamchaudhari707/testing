@@ -1,6 +1,7 @@
 const mongoose = require("mongoose")
 
-const baseurl = `mongodb://localhost:27017/Ecommerce_2024`
+// const baseurl = `mongodb+srv://shubhamchaudhari707:CVYMJGnt4c6Ub88j@cluster0.pjlxhfh.mongodb.net/`
+const baseurl = `mongodb+srv://shubhamchaudhari707:shubham@cluster0.pjlxhfh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`
 
 const connectDB = mongoose.connect(baseurl, {
 
